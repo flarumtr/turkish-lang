@@ -29,10 +29,10 @@ Flarum Forum Yazılımı Türkçe Dil Eklentisi
 
 **Diğer Eklentiler**
 
--Mailing
--Reply2see
--Syndication
+- Mailing
+- Reply2see
+- Syndication
 
 ## Kurulum
 
-composer require flarumtr/...
+`composer require ...`
