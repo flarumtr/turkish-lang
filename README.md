@@ -1,4 +1,4 @@
-Flarum Forum Yazılımı Türkçe Dil Eklentisi
+Flarum Forum Yazılımı Türkçe Dil Eklentisi (Flarum Tüekçe Destek ve Yardımlaşma Forumu tarafından paylaşılmıştır. <a href="https://flarumtr.com"></a>
 
 ### EKLENTİ ÇEVİRİLERİ
 
