@@ -8,30 +8,30 @@ Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımla
 - Polls
 - Pages
 - Links
-- Ignore Users
+- Ignore Users (eklenecek)
 - Formatting
 - Byobu
-- Split
-- Merge Discussions
+- Split (eklenecek)
+- Merge Discussions (eklenecek)
 - User Directory
 - Share Social
-- Discord Login
-- Follow Tags
-- URl transliterator
+- Discord Login 
+- Follow Tags 
+- URl transliterator (eklenecek)
 - Social Profile
 
 **Reflar Eklentileri**
-- Dorman
-- Level Ranks
-- Webhooks
-- Cookie consert
-- Night Mode
+- Dorman (eklenecek)
+- Level Ranks (ekleencek)
+- Webhooks (eklenecek)
+- Cookie consert (eklenecek)
+- Night Mode (eklenecek)
 
 **Diğer Eklentiler**
 
-- Mailing
-- Reply2see
-- Syndication
+- Mailing (eklenecek)
+- Reply2see (eklenecek)
+- Syndication (ekleencek)
 
 ## Kurulum
 
