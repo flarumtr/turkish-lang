@@ -36,6 +36,16 @@ Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımla
 - Reply2see (eklenecek)
 - Syndication (ekleencek)
 
+SSH ile sitenizin kurulu olduğu dizinde aşağıdaki komutları kullanarak işlem yapabilirsiniz.
+
 ## Kurulum
 
 `composer require flarumtr/turkish-lang`
+
+## Güncelleme
+
+`composer update flarumtr/turkish-lang`
+
+## Kaldırma
+
+`composer remove flarumtr/turkish-lang`
