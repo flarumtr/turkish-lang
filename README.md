@@ -1,4 +1,6 @@
-Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımlaşma Forumu tarafından paylaşılmıştır) <a href="https://flarumtr.com">FLARUMTR.COM</a>
+Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımlaşma Forumu tarafından paylaşılmıştır) 
+
+<a href="flarum.org">flarum.org</a>
 
 ### EKLENTİ ÇEVİRİLERİ
 
