@@ -36,4 +36,4 @@ Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımla
 
 ## Kurulum
 
-`composer require ...`
+`composer require flarumtr/turkish-lang`
