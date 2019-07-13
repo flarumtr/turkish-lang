@@ -17,8 +17,9 @@ Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımla
 - Share Social
 - Discord Login 
 - Follow Tags 
-- URl transliterator (eklenecek)
+- URL transliterator (eklenecek)
 - Social Profile
+- User Name Requset
 
 **Reflar Eklentileri**
 - Dorman (eklenecek)
