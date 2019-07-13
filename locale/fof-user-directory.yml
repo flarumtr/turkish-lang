@@ -1,0 +1,25 @@
+fof-user-directory:
+    forum:
+        search:
+            users_heading: 'Tüm kullanıcıları "{query}" için ara'
+        page:
+            nav: Üyeler
+            sort:
+                relevance: ilgili
+                default: Varsayılan
+                username_az: Sıralama (a-z)
+                username_za: Sıralama (z-a)
+                newest: En yeni üyeler
+                oldest: En eski üyeler
+                seen_recent: Çevrimiçi
+                seen_oldest: Az uğrayanlar
+                most_posts: En fazla post
+                least_posts: En az post
+                most_discussions: En çok konu
+                least_discussions: En az konu
+    admin:
+        permissions:
+            view_user_directory: Kullanıcı dizinini görüntüle
+        settings:
+            title: Kullanıcı Dizini Ayarları
+            link: Anasayfa sol menüye Kullanıcı listesi için bir link ekle
