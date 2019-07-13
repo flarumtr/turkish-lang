@@ -49,7 +49,7 @@ core:
       show_language_selector_label: Dil seçici göster
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Hoşgeldin Afişi
-      welcome_banner_text: Tüm tartışmalar sayfası için görünecek yazıyı ayarlayın. Bunu ziyaretçilerinize hoşgeldin demek için kullanın.
+      welcome_banner_text: Tüm konular sayfası için görünecek yazıyı ayarlayın. Bunu ziyaretçilerinize hoşgeldin demek için kullanın.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -146,9 +146,9 @@ core:
       allow_post_editing_label: Mesaj düzenlemeye izin ver
       allow_renaming_label: Yeniden adlandırmaya izin ver
       create_heading: Oluşturma
-      delete_discussions_forever_label: Tartışmayı tamamen siler
-      delete_discussions_label: Tartışma siler
-      delete_posts_forever_label: Tartışmayı tamamen siler
+      delete_discussions_forever_label: Konuyu tamamen siler
+      delete_discussions_label: Konu siler
+      delete_posts_forever_label: Konuyu tamamen siler
       delete_posts_label: Mesajı siler
       edit_posts_label: Mesajı düzenler
       global_heading: Global
@@ -156,11 +156,11 @@ core:
       new_group_button: Yeni Grup
       participate_heading: Katılma
       read_heading: Okuma
-      rename_discussions_label: Tartışmayı yeniden adlandırma
-      reply_to_discussions_label: Tartışmaya cevap verme
+      rename_discussions_label: Konuyu yeniden adlandırma
+      reply_to_discussions_label: Konuya cevap verme
       sign_up_label: Kayıt Olma
-      start_discussions_label: Tartışma başlatma
-      view_discussions_label: Tartışma görüntüleme
+      start_discussions_label: Konu başlatma
+      view_discussions_label: Konu görüntüleme
       view_last_seen_at_label: Son görülme zamanını görüntüle
       view_post_ips_label: Mesaj IP adresi görüntüleme
       view_user_list_label: Kullanıcı listesini görüntüle
@@ -214,10 +214,10 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Bir Mesaj Yazın...
-      discard_confirmation: "Tartışmanızı göndermediniz. Emin misiniz?"
-      submit_button: Tartışmayı Gönder
+      discard_confirmation: "konuyu göndermediniz. Emin misiniz?"
+      submit_button: Konuyu Gönder
       title: => core.ref.start_a_discussion
-      title_placeholder: Tartışma Başlığı
+      title_placeholder: Konu Başlığı
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -236,9 +236,9 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Cevaplanamaz
-      cannot_reply_text: Bu tartışmaya cevap yazmak için izniniz yok.
+      cannot_reply_text: Bu konuya cevap yazmak için izniniz yok.
       delete_button: => core.ref.delete
-      delete_confirmation: "Bu tartışmayı silmek istediğinizden emin misiniz?"
+      delete_confirmation: "Bu konuyu silmek istediğinizden emin misiniz?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Giriş Yapın
       rename_button: => core.ref.rename
@@ -247,7 +247,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Burada tartışma yokmuş gibi görünüyor.
+      empty_text: Burada hiç konu yokmuş gibi görünüyor.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Okundu olarak işaretle
       replied_text: "{username} {ago} cevapladı"
@@ -280,7 +280,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Yönetim
-      back_to_index_tooltip: Tartışma listesine geri dön
+      back_to_index_tooltip: Konu listesine geri dön
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
@@ -291,8 +291,8 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Tartışma Başlatamaz
-      mark_all_as_read_confirmation: "Tüm tartışmaları okundu olarak işaretlemek istediğinizden emin misiniz?"
+      cannot_start_discussion_button: Konu Başlatamaz
+      mark_all_as_read_confirmation: "Tüm konuları okundu olarak işaretlemek istediğinizden emin misiniz?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Yenile
       start_discussion_button: => core.ref.start_a_discussion
@@ -340,8 +340,8 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Şimdi
-      original_post_link: Original Mesaj
-      unread_text: "{count} unread"
+      original_post_link: İlk Mesaj
+      unread_text: "{count} okunmamış"
       viewing_text: "{index} / {count} mesaj|{index} / {count} mesaj"
 
     # These translations are displayed between posts in the post stream.
@@ -355,11 +355,11 @@ core:
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Tartışmayı Yeniden Adlandır
+      title: Konuyu Yeniden Adlandır
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: '"{query}" için tüm tartışmaları ara'
+      all_discussions_button: '"{query}" için tüm konuları ara'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
@@ -371,7 +371,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Birisi benim başlattığım tartışmanın başlığını değiştirdiğinde
+      notify_discussion_renamed_label: Birisi benim başlattığım konunun başlığını değiştirdiğinde
       privacy_disclose_online_label: Diğerlerinin beni çevrimiçi görmesine izin ver
       privacy_heading: Gizlilik
       title: => core.ref.settings
@@ -393,7 +393,7 @@ core:
       avatar_upload_button: Yükle
       avatar_upload_tooltip: Yeni avatar yükle
       discussions_link: => core.ref.discussions
-      in_discussion_text: "Tartışma: {discussion}"
+      in_discussion_text: "Konu: {discussion}"
       joined_date_text: "{ago} katıldı"
       online_text: Çevrimiçi
       posts_empty_text: Burada hiç mesaj yok gibi görünüyor.
@@ -538,7 +538,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Tüm Tartışmalar
+    all_discussions: Tüm Konular
     change_email: E-posta Değiştir
     change_password: Şifre Değiştir
     color: Color                                 # Referenced by flarum-tags.yml
@@ -550,13 +550,13 @@ core:
     custom_header_title: Harici Başlık Düzenle
     delete: Sil
     delete_forever: Tamamen Sil
-    discussions: Tartışmalar                     # Referenced by flarum-statistics.yml
+    discussions: Konular                     # Referenced by flarum-statistics.yml
     edit: Düzenle
     email: E-posta
     icon: İkon
     icon_text: "Herhangi bir <a>FontAwesome</a> ikon sınıfını, <code>fas fa-</code> öneki <em>olmadan</em> yazın."
     load_more: Daha Fazla
-    log_in: Giriş
+    log_in: GİRİŞ
     log_out: Çıkış
     mark_all_as_read: Hepsini Okundu Olarak İşaretle
     next_page: Sonraki Sayfa
@@ -572,9 +572,9 @@ core:
     restore: Geri Al
     save_changes: Değişiklikleri Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
-    sign_up: Kayıt Ol
+    sign_up: KAYDOL
     some_others: "{count} diğer|{count} diğer"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Yeni Tartışma
+    start_a_discussion: Yeni Konu Aç
     username: Kullanıcı Adı
     users: Kullanıcılar                                 # Referenced by flarum-statistics.yml
     write_a_reply: Cevap Yaz...
