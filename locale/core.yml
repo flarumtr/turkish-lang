@@ -562,7 +562,7 @@ core:
     next_page: Sonraki Sayfa
     notifications: Bildirimler
     okay: TAMAM                                     # Referenced by flarum-tags.yml
-    password: Password
+    password: Şifre
     posts: Mesajlar                                 # Referenced by flarum-statistics.yml
     previous_page: Önceki sayfa
     remove: Kaldır
