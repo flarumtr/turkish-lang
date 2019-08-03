@@ -2,41 +2,9 @@ Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımla
 
 <a href="flarum.org">flarum.org</a> - <a href="https://flarumtr.com">flarumtr.com</a>
 
-### EKLENTİ ÇEVİRİLERİ
+Bu eklentiyi Tolga Altaş tarafından yapılan eklenti çeivirilerini içeren eklenti ile birlikte kullanmalısınız.
 
-**Fof Eklentileri**
-
-- User Bio
-- Polls
-- Pages
-- Links
-- Ignore Users (eklenecek)
-- Formatting
-- Byobu
-- Split (eklenecek)
-- Merge Discussions (eklenecek)
-- User Directory
-- Share Social
-- Discord Login 
-- Follow Tags 
-- URL transliterator (eklenecek)
-- Social Profile
-- User Name Requset
-
-**Reflar Eklentileri**
-- Dorman (eklenecek)
-- Level Ranks (ekleencek)
-- Webhooks (eklenecek)
-- Cookie consert (eklenecek)
-- Night Mode (eklenecek)
-
-**Diğer Eklentiler**
-
-- Mailing (eklenecek)
-- Reply2see (eklenecek)
-- Syndication (ekleencek)
-
-SSH ile sitenizin kurulu olduğu dizinde aşağıdaki komutları kullanarak işlem yapabilirsiniz.
+`composer require tolgaaaltas/flarum-ext-turkish` 
 
 ## Kurulum
 
