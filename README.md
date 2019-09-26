@@ -1,10 +1,7 @@
-Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımlaşma Forumu tarafından paylaşılmıştır) 
+Flarum Forum Betiği Türkçe Dil Eklentisi (Flarum Türkçe Destek ve Yardımlaşma Forumu tarafından hazırlanmıştır.) 
 
 <a href="flarum.org">flarum.org</a> - <a href="https://flarumtr.com">flarumtr.com</a>
 
-Bu eklentiyi Tolga Altaş tarafından yapılan eklenti çeivirilerini içeren eklenti ile birlikte kullanmalısınız.
-
-`composer require tolgaaaltas/flarum-ext-turkish` 
 
 ## Kurulum
 
