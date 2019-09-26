@@ -23,7 +23,7 @@ core:
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Harici Başlık
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Harici Stiller
+      custom_styles_heading: Harici CSS
       custom_styles_text: Kendi LESS/CSS kodlarınızı ekleyerek forumunuzu özelleştirin, bu kodlar Flarum'un varsayılan stillerinin üstüne eklenecektir.
       dark_mode_label: Koyu Mod
       edit_css_button: Harici CSS Düzenle
@@ -151,6 +151,7 @@ core:
       delete_posts_forever_label: Konuyu tamamen siler
       delete_posts_label: Mesajı siler
       edit_posts_label: Mesajı düzenler
+	  edit_users_label: Kullanıcıları düzenle
       global_heading: Global
       moderate_heading: Moderate
       new_group_button: Yeni Grup
@@ -321,6 +322,7 @@ core:
       discussion_renamed_text: "{username} başlığı değiştirdi"
       empty_text: Bildirim Yok
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+	  mark_as_read_tooltip: Okundu olarak işaretle
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
@@ -406,7 +408,10 @@ core:
       button: Ayarlar
       delete_button: => core.ref.delete
       delete_confirmation: "Bu kullanıcıyı silmek istediğinizden emin misiniz? Kullanıcının tüm mesajları silinecek."
+	  delete_error_message: "<i>{username} ({email})</i> adlı kullanıcının silinmesi başarısız oldu"
+	  delete_success_message: "<i>{username} ({email})</i> adlı kullanıcı silindi"
       edit_button: => core.ref.edit
+	 
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
